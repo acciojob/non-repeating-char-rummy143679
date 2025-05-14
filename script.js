@@ -12,6 +12,7 @@ function firstNonRepeatedChar(str) {
 	for(let key in obj){
 		if(obj[key] == 1){
 			char = key;
+			break;
 		}
 	}
 	if(char == ""){
